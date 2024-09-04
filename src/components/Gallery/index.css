@@ -1,0 +1,21 @@
+/* Write your code here. */
+.bg-container {
+  padding-left: 80px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  padding-left: 0px;
+}
+.main-image {
+  width: 200px;
+  height: 200px;
+}
+@media screen and (min-width: 765px) {
+  .main-image {
+    width: 1000px;
+    height: 1000px;
+  }
+}
